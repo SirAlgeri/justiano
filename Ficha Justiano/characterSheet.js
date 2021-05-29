@@ -33,7 +33,7 @@ const data = {
   slot3: 'Kit Médico',
   slot4: '4He',
   slot5: '43',
-  slot6: 'N/a',
+  slot6: 'Chave verde',
   
 
   // PERÍCIAS 
