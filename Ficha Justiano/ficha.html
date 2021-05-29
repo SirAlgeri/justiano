@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Ficha de personagem</title>
+    <title>Ficha Justiano</title>
   </head>
   <body>
     <h1 class="title">Ficha de personagem</h1>
@@ -84,15 +84,16 @@
       <div class="character">
         <div class="characterHeader">
           <img class="characterPhoto" src="./img/character.png" alt="Foto" />
-          <button id="button"><img class="dice2" src="./img/dado.png"></button>
+          <button id="button"><img class="dice2" src="./img/d20.png"></button>
           <p class="resultadod20" id="placeholder"></p>
-
           <script src="dice.js"></script>
           <script src="ui.js"></script>
            </div>
 
-        <div class="bars">
-          <h4>Vida</h4>
+        <div class="bars">     <br>       
+          <h3>Vida</h3>
+          <br>
+          
           <div class="bar">
             <div class="lifeBar" style="width: 0%">
               <p class="barcount" id="lifeCount"></p>
@@ -108,15 +109,18 @@
               <label for="dying"> Morrendo</label>
             </form>
           </div>
-
-          <h4>Sanidade</h4>
-          <div class="sanity">
+          <br>  
+          <h3>Sanidade</h3>
+          <div class="sanityfont">
             <div class="contentSanityBar">
               <div class="sanityBar" style="width: 0%">
                 <p class="barcount" id="sanityCount"></p>
               </div>
             </div>
-            <img class="sanityDice" src="./img/dado.png" alt="Dado" />
+            <button id="button2"><img class="sanityDice" src="./img/d100.png"></button>
+            <p class="resultadod100" id="placeholder2"></p>
+            <script src="dice100.js"></script>
+            <script src="ui.js"></script>
           </div>
           <div class="checkboxs">
             <input
@@ -149,7 +153,6 @@
       <div class="attributes border">
         <h2 class="grid-title">ATRIBUTOS</h2>
         <hr />
-
         <div class="attributesList" id="attributesList"></div>
       </div>
       <div class="expertise border">

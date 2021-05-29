@@ -33,7 +33,7 @@ const data = {
   slot3: 'Kit Médico',
   slot4: '4He',
   slot5: '43',
-  slot6: 'Chave verde',
+  slot6: 'Chave Verde',
   
 
   // PERÍCIAS 
@@ -467,5 +467,30 @@ var button = document.getElementById('button');
 button.onclick = function() {
   var result = dice.roll();
   printNumber(result);
+};
+
+
+var dice100 = {
+  sides: 100,
+  roll: function () {
+    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+    return randomNumber;
+  }
+}
+
+
+
+//Prints dice roll to the page
+
+function printNumber2(number) {
+  var placeholder2 = document.getElementById('placeholder2');
+  placeholder2.innerHTML = number;
+}
+
+var button2 = document.getElementById('button2');
+
+button2.onclick = function() {
+  var result = dice100.roll();
+  printNumber2(result);
 };
 
