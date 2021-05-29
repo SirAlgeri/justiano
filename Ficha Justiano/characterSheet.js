@@ -18,7 +18,7 @@ const data = {
   arma_fogo1:'11',
   arma_fogo2:'11',
   arma_fogo3:'11',
-  municao:'7/7',
+  municao:'5/7',
   slot_arma1: 'Desert Eagle',
   slot_arma2: 'Karambit',
   slot_arma3: 'N/a',
@@ -75,7 +75,7 @@ const data = {
   use_pc: 15,
 
   life: {
-    current: 12,
+    current: 6,
     max: 12,
   },
   sanity: {
@@ -230,6 +230,7 @@ $(window).click(function (event) {
     closeModal('#addWeaponModal')
   }
 })
+
 
 function rollAtribute(atribute, amount) {
   console.log(this)
@@ -444,5 +445,27 @@ function addAttribute(attribute, id) {
   $('#attributesList').append(newAttribute)
 }
 
+var dice = {
+  sides: 20,
+  roll: function () {
+    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+    return randomNumber;
+  }
+}
 
+
+
+//Prints dice roll to the page
+
+function printNumber(number) {
+  var placeholder = document.getElementById('placeholder');
+  placeholder.innerHTML = number;
+}
+
+var button = document.getElementById('button');
+
+button.onclick = function() {
+  var result = dice.roll();
+  printNumber(result);
+};
 

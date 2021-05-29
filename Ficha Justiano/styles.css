@@ -96,6 +96,7 @@ h2.grid-title {
 .dice {
     height: 80px;
     margin-top: 18px;
+    margin-left: 50px;
 }
 
 .attributes { 
@@ -499,6 +500,15 @@ select:focus {
     align-self: center;
 }
 
+.resultadod20  {
+    font-size: 40px;
+    margin-top: 37px;
+    
+}
+
+  
+
+
 /* The Modal (background) */
 
 .modal {
@@ -563,6 +573,8 @@ select:focus {
     transition: transform .8s ease-in-out;
 }
 
+
+
 @media only screen and (min-width: 1000px) {
     .container {
         width: 65%;
@@ -621,6 +633,29 @@ input[type="checkbox"]:checked + label:after {
     border: solid rgb(255, 255, 255);
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+}
+
+button {
+    display: inline-block;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+    background-color:#0a0b0c;
+
+}
+
+
+.dice2 {
+    height: 80px;
+    margin-top: 18px;
+    margin-left: 50px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+
 }
 
 
