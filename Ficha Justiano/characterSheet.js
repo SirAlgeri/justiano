@@ -18,7 +18,7 @@ const data = {
   arma_fogo1:'11',
   arma_fogo2:'11',
   arma_fogo3:'11',
-  municao:'5/7',
+  municao:'7/7',
   slot_arma1: 'Desert Eagle',
   slot_arma2: 'Karambit',
   slot_arma3: 'N/a',
@@ -31,9 +31,9 @@ const data = {
   slot: 'Drone',
   slot2: 'Controle pro Drone',
   slot3: 'Kit Médico',
-  slot4: '4He',
-  slot5: '43',
-  slot6: 'Chave Verde',
+  slot4: '4HE',
+  slot5: '50 Munição .50',
+  slot6: 'Maleta Condutor',
   
 
   // PERÍCIAS 
@@ -79,7 +79,7 @@ const data = {
     max: 12,
   },
   sanity: {
-    current: 55,
+    current: 54,
     max: 55,
   },
 
