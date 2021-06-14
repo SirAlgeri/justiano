@@ -34,7 +34,15 @@ const data = {
   slot4: '4HE',
   slot5: '50 Munição .50',
   slot6: 'Maleta Condutor',
-  
+  anotacoes: 'Mapa do trem',
+  anotacoes2: '',
+  anotacoes3: '',
+  anotacoes4: '',
+  anotacoes5: '',
+  anotacoes6: '',
+  anotacoes7: '',
+  anotacoes8: '',
+  anotacoes9: '',
 
   // PERÍCIAS 
   acrobacia: 1,
@@ -126,7 +134,15 @@ data.attributes.map((attribute, index) => {
 })
 
 
-
+$('#anotacoes').val(data.anotacoes)
+$('#anotacoes2').val(data.anotacoes2)
+$('#anotacoes3').val(data.anotacoes3)
+$('#anotacoes4').val(data.anotacoes4)
+$('#anotacoes5').val(data.anotacoes5)
+$('#anotacoes6').val(data.anotacoes6)
+$('#anotacoes7').val(data.anotacoes7)
+$('#anotacoes8').val(data.anotacoes8)
+$('#anotacoes8').val(data.anotacoes9)
 $('#name').val(data.name)
 $('#player').val(data.player)
 $('#occupation').val(data.occupation)
