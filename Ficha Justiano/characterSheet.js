@@ -89,7 +89,7 @@ const data = {
     max: 12,
   },
   sanity: {
-    current: 54,
+    current: 46,
     max: 55,
   },
 
